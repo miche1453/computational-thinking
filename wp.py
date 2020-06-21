@@ -19,7 +19,7 @@ class WordProcessor:
         words = Words(text)
         wds = words.getWords()
         self.wordcount = len(wds)
-        #TO-DO-BY-YOU to construct vocabulary 
+        #need help here to construct vocabulary 
 
     def getWordcount(self):
         """ Return the number of words extracted from the file. 
@@ -32,7 +32,7 @@ class WordProcessor:
             Note that there is no duplicate word contained in the vocabulary  
         """
         pass
-        #TO-DO-BY-YOU to return vocabulary 
+        #need help here to return vocabulary 
     
 
     
