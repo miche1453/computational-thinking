@@ -14,7 +14,7 @@ for line in inputfile:
     
     if (s!= -1):
         print(line)
-        cols = line.split("Frame") #Think: What does this line do?
-        print(cols[0])   #Think: Why 0 is used here? Probably because I only interested in this piece?        
-        print(cols[0][6:])   #Think: Why 6 is used here?  This is a slicing method used to slice a substring
+        cols = line.split("Frame") 
+        print(cols[0])       
+        print(cols[0][6:])   
 
